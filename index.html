@@ -433,67 +433,194 @@
     </section>
 
     <section id="portfolio" class="section">
-      <div class="container">
-        <h2 class="text-center section-title">My Work</h2>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="portfolio-item">
-              <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D8%AA%D9%86%D9%88%D9%8A%D9%86?page-id=0%3A1&node-id=44-214&viewport=449%2C424%2C0.09&t=DZzis9dHmRc3MvEq-1&scaling=scale-down&content-scaling=fixed"><img src="img/project-Tnwen.png" alt="Project 1" class="img-fluid" /></a>
-              <div class="portfolio-overlay">
-                <h5 class="mt-2">Tanween application</h5>
-                <p>UI/UX Design</p>
+    <div class="container">
+      <h2 class="text-center section-title">My Work</h2>
+      <ul class="nav nav-pills justify-content-center flex-nowrap  mb-4" id="portfolioTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link btn btn-outline-primary active"
+            id="all-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#all"
+            type="button"
+            role="tab"
+            aria-controls="all"
+            aria-selected="true"
+          >
+            All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link btn btn-outline-primary"
+            id="design-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#design"
+            type="button"
+            role="tab"
+            aria-controls="design"
+            aria-selected="false"
+          >
+            UI UX DESIGN
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link btn btn-outline-primary"
+            id="frontend-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#frontend"
+            type="button"
+            role="tab"
+            aria-controls="frontend"
+            aria-selected="false"
+          >
+            FRONT END
+          </button>
+        </li>
+      </ul>
+      
+      <div class="tab-content">
+        <div
+          class="tab-pane fade show active"
+          id="all"
+          role="tabpanel"
+          aria-labelledby="all-tab"
+        >
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D8%AA%D9%86%D9%88%D9%8A%D9%86?page-id=0%3A1&node-id=44-214&viewport=449%2C424%2C0.09&t=DZzis9dHmRc3MvEq-1&scaling=scale-down&content-scaling=fixed"><img src="img/project-Tnwen.png" alt="Project 1" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Tanween application</h5>
+                  <p>UI/UX Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.behance.net/gallery/222384665/TaxiApp-"><img src="img/project-Shaheen Taxi.png" alt="Project 2" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Shaheen Taxi</h5>
+                  <p>Case Study</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D8%AA%D9%86%D9%88%D9%8A%D9%86?page-id=207%3A389&node-id=207-390&p=f&viewport=386%2C253%2C0.36&t=jF3fh8t96ukymRqm-1&scaling=scale-down&content-scaling=fixed"><img src="img/project-haspa.png" alt="Project 3" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">calculator app</h5>
+                  <p>UX Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="frontend">
+              <div class="portfolio-item-inner">
+                <a href="https://abdalrzak12.github.io/team_web/pages/hero.html"><img src="img/project-syria.png" alt="Project 4" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Landing Page</h5>
+                  <p>UI/UX & Development</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9?page-id=214%3A934&node-id=270-317&viewport=416%2C256%2C0.09&t=Yv5S63CbFqj3ogiT-1&scaling=scale-down-width&content-scaling=fixed"><img src="img/project-ejar.png" alt="Project 5" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Ejar Website</h5>
+                  <p>UI/UX Landing Page</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/vUneMwIJjry9M4nRqaJEzh/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA?page-id=73%3A52&node-id=150-68&p=f&viewport=207%2C179%2C0.31&t=ktCIfrgfZrjoALPX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A140"><img src="img/project-New Syria.png" alt="Project 6" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Brand Identity</h5>
+                  <p>UI/UX Design</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="portfolio-item">
-              <a href="https://www.behance.net/gallery/222384665/TaxiApp-"><img src="img/project-Shaheen Taxi.png" alt="Project 2" class="img-fluid" /></a>
-              <div class="portfolio-overlay">
-                <h5 class="mt-2">Shaheen Taxi</h5>
-                <p>Case Study</p>
+        </div>
+        
+        <div
+          class="tab-pane fade"
+          id="design"
+          role="tabpanel"
+          aria-labelledby="design-tab"
+        >
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D8%AA%D9%86%D9%88%D9%8A%D9%86?page-id=0%3A1&node-id=44-214&viewport=449%2C424%2C0.09&t=DZzis9dHmRc3MvEq-1&scaling=scale-down&content-scaling=fixed"><img src="img/project-Tnwen.png" alt="Project 1" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Tanween application</h5>
+                  <p>UI/UX Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.behance.net/gallery/222384665/TaxiApp-"><img src="img/project-Shaheen Taxi.png" alt="Project 2" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Shaheen Taxi</h5>
+                  <p>Case Study</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D8%AA%D9%86%D9%88%D9%8A%D9%86?page-id=207%3A389&node-id=207-390&p=f&viewport=386%2C253%2C0.36&t=jF3fh8t96ukymRqm-1&scaling=scale-down&content-scaling=fixed"><img src="img/project-haspa.png" alt="Project 3" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">calculator app</h5>
+                  <p>UX Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9?page-id=214%3A934&node-id=270-317&viewport=416%2C256%2C0.09&t=Yv5S63CbFqj3ogiT-1&scaling=scale-down-width&content-scaling=fixed"><img src="img/project-ejar.png" alt="Project 5" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Ejar Website</h5>
+                  <p>UI/UX Landing Page</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <a href="https://www.figma.com/proto/vUneMwIJjry9M4nRqaJEzh/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA?page-id=73%3A52&node-id=150-68&p=f&viewport=207%2C179%2C0.31&t=ktCIfrgfZrjoALPX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A140"><img src="img/project-New Syria.png" alt="Project 6" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Brand Identity</h5>
+                  <p>UI/UX Design</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="portfolio-item">
-              <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D8%AA%D9%86%D9%88%D9%8A%D9%86?page-id=207%3A389&node-id=207-390&p=f&viewport=386%2C253%2C0.36&t=jF3fh8t96ukymRqm-1&scaling=scale-down&content-scaling=fixed"><img src="img/project-haspa.png" alt="Project 3" class="img-fluid" /></a>
-              <div class="portfolio-overlay">
-                <h5 class="mt-2">calculator app</h5>
-                <p>UX Design</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="portfolio-item">
-              <a href="https://abdalrzak12.github.io/team_web/pages/hero.html"><img src="img/project-syria.png" alt="Project 4" class="img-fluid" /></a>
-              <div class="portfolio-overlay">
-                <h5 class="mt-2">Landing Page</h5>
-                <p>UI/UX & Development</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="portfolio-item">
-              <a href="https://www.figma.com/proto/cQMp9kQyFxUEQc0uCpYKqY/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9?page-id=214%3A934&node-id=270-317&viewport=416%2C256%2C0.09&t=Yv5S63CbFqj3ogiT-1&scaling=scale-down-width&content-scaling=fixed"><img src="img/project-ejar.png" alt="Project 5" class="img-fluid" /></a>
-              <div class="portfolio-overlay">
-                <h5 class="mt-2">Ejar Website</h5>
-                <p>UI/UX Landing Page</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="portfolio-item">
-              <a href="https://www.figma.com/proto/vUneMwIJjry9M4nRqaJEzh/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA?page-id=73%3A52&node-id=150-68&p=f&viewport=207%2C179%2C0.31&t=ktCIfrgfZrjoALPX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A140"><img src="img/project-New Syria.png" alt="Project 6" class="img-fluid" /></a>
-              <div class="portfolio-overlay">
-                <h5 class="mt-2">New Syria</h5>
-                <p>UI/UX Design</p>
+        </div>
+        
+        <div
+          class="tab-pane fade"
+          id="frontend"
+          role="tabpanel"
+          aria-labelledby="frontend-tab"
+        >
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 portfolio-item" data-category="frontend">
+              <div class="portfolio-item-inner">
+                <a href="https://abdalrzak12.github.io/team_web/pages/hero.html"><img src="img/project-syria.png" alt="Project 4" class="img-fluid" /></a>
+                <div class="portfolio-overlay">
+                  <h5 class="mt-2">Landing Page</h5>
+                  <p>UI/UX & Development</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
+  </section>
     <section id="contact" class="section bg-dark">
       <div class="container">
         <h2 class="text-center section-title">Get In Touch</h2>
